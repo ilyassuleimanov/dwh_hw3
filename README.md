@@ -9,3 +9,8 @@
   1) docker-compose up airflow-init
   2) docker-compose up
   3) ОПЦИОНАЛЬНО: чтобы работала kafka из ДЗ №2, надо прогнать .ipynb ноутбук, там создаются коннекторы для дебезиума и проверяется работа кафки
+
+Airflow:
+  http://localhost:8080/
+  login: airflow
+  password: airflow
