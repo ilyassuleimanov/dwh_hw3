@@ -326,6 +326,7 @@ services:
           echo
         fi
         mkdir -p /sources/logs /sources/dags /sources/plugins
+        mkdir -p ./dags ./logs ./plugins ./config
         chown -R "${AIRFLOW_UID}:0" /sources/{logs,dags,plugins}
         exec /entrypoint airflow version
     # yamllint enable rule:line-length
