@@ -17,3 +17,16 @@ Airflow:
   login: airflow
   
   password: airflow
+
+# DWH HW4
+
+Поднята grafana, расчитываю ан минимальный балл за дз.
+
+Вдохновлялся инструкцией с официального сайта: https://grafana.com/docs/grafana/latest/setup-grafana/installation/docker/
+
+Запуск: 
+  1) docker-compose up
+  2) ОПЦИОНАЛЬНО: для корректной работы функционала из ДЗ №3, надо также следовать инструкции выше (dwh_hw3)
+
+Запуск grafana: http://localhost:3000/
+
