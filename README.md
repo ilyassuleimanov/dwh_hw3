@@ -1,6 +1,6 @@
 # DWH HW4
 
-Поднята grafana, расчитываю ан минимальный балл за дз.
+Поднята grafana, расчитываю на минимальный балл за дз.
 
 Вдохновлялся инструкцией с официального сайта: https://grafana.com/docs/grafana/latest/setup-grafana/installation/docker/
 
