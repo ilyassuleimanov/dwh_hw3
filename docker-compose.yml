@@ -86,6 +86,15 @@ x-airflow-common:
       condition: service_healthy
 
 services:
+  grafana:
+    image: grafana/grafana-enterprise
+    container_name: grafana
+    restart: unless-stopped
+    ports:
+      - '3000:3000'
+    volumes:
+      - grafana-storage:/var/lib/grafana
+
   postgres:
     image: postgres:13
     environment:
@@ -378,3 +387,4 @@ services:
 
 volumes:
   postgres-db-volume:
+  grafana-storage: {}
